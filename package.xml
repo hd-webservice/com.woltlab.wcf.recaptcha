@@ -17,8 +17,8 @@
 	</requiredpackages>
 
 	<instructions type="install">
-		<instruction type="files">files.tar</instruction>
-		<instruction type="templates">templates.tar</instruction>
-		<instruction type="options">options.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="option">options.xml</instruction>
 	</instructions>
 </package>
