@@ -89,5 +89,8 @@ abstract class RecaptchaForm extends AbstractForm {
 		parent::assignVariables();
 		
 		RecaptchaHandler::getInstance()->assignVariables();
+		WCF::getTPL()->assign(array(
+			'useCaptcha' => $this->useCaptcha
+		));
 	}
 }
