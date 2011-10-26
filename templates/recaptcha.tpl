@@ -4,7 +4,8 @@
 		<script type="text/javascript">
 			//<![CDATA[
 			var RecaptchaOptions = {
-				lang: '{@$recaptchaLanguageCode}'
+				lang: '{@$recaptchaLanguageCode}',
+				theme : 'white'
 			}
 			//]]>
 		</script>
