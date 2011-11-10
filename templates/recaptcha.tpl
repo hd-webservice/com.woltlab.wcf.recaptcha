@@ -1,4 +1,4 @@
-<dl>
+<dl class="captcha">
 	<dt>{lang}wcf.recaptcha.recaptchaString.description{/lang}</dt>
 	<dd>
 		<script type="text/javascript">
